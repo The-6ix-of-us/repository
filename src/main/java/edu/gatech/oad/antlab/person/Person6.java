@@ -3,6 +3,7 @@ package edu.gatech.oad.antlab.person;
 /**
  *  A simple class for person 6
  *  returns their name and a
+
  *  modified string 
  *  
  *  @author Daniel
@@ -16,7 +17,6 @@ public class Person6 {
 	 * name
 	 * @param pname the person's real name
 	 */
-
   public Person6(String pname) {
     name = pname;
   }
@@ -37,13 +37,13 @@ public class Person6 {
 
 	  return stringStart + stringEnd;
 	}
-	
+
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
 	 *
 	 * @param input the varying string
-	 * @return the string representing the 
+	 * @return the string representing the
 	 *         object
 	 */
 	public String toString(String input) {
