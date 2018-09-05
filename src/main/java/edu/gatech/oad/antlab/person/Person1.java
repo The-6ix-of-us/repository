@@ -30,8 +30,11 @@ public class Person1 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  //Person 1 put your implementation here
-	  return null;
+	  if (input.length() > 2) {
+	  	return input.substring(2) + input.substring(0, 2);
+	  } else {
+	  	return input;
+	  }
 	}
 	
 	/**
@@ -45,5 +48,6 @@ public class Person1 {
 	public String toString(String input) {
 	  return name + calc(input);
 	}
-
 }
+
+
