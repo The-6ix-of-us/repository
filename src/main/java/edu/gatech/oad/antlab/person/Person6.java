@@ -3,9 +3,8 @@ package edu.gatech.oad.antlab.person;
 /**
  *  A simple class for person 6
  *  returns their name and a
-
- *  modified string 
- *  
+ *  modified string
+ *
  *  @author Daniel
  *  @version 1.2
  */
