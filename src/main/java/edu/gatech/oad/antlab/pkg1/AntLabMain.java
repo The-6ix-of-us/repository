@@ -1,7 +1,7 @@
 package edu.gatech.oad.antlab.pkg1;
 
-
 import edu.gatech.oad.antlab.person.*;
+import edu.cs2335.antlab.pkg3.*;
 import edu.gatech.oad.antlab.pkg2.*;
 
 
@@ -75,7 +75,7 @@ import edu.gatech.oad.antlab.pkg2.*;
                   Person5 p5 = new Person5("Matt Webster");
                   toPrint += p5.toString("mwebster9");
 
-                  Person p6 = new Person6("Daniel Fridkin");
+                  Person6 p6 = new Person6("Daniel Fridkin");
                   toPrint += p6.toString("dfridkin3");
         System.out.println(toPrint);
 
